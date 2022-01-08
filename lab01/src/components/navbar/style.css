@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+li {
+  display: inline-block;
+}
+
+.menu-item {
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #cc3366;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.menu-item:hover {
+  background-color: #33cc66;
+}
