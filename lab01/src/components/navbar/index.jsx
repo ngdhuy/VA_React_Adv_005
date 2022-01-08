@@ -14,6 +14,9 @@ export default function Navbar() {
         <li>
           <Link to="/contact" class="menu-item">Contact Us</Link>
         </li>
+        <li>
+          <Link to="/products" class="menu-item">Products</Link>
+        </li>
       </ul>
     </nav>
   );
