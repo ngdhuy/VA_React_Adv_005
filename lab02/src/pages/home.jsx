@@ -6,8 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
-import Info from "./about/info";
-import Contact from "./about/contact";
+const Info = React.lazy(() => import("./about/info"));
+const Contact = React.lazy(() => import("./about/contact"));
 
 export function Home(props) {
   return(
@@ -17,8 +17,16 @@ export function Home(props) {
 
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="info" element={<Info />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="info" element={
+            <React.Suspense fallback={<>...</>}>
+              <Info />
+            </React.Suspense>
+          }/>
+          <Route path="contact" element={
+            <React.Suspense fallback={<>...</>}>
+              <Contact />
+            </React.Suspense>
+          }/>
           <Route path="*" element={<NotMatch />} />
         </Route>
       </Routes>
@@ -33,7 +41,6 @@ function Layout() {
         <Link to="/home">Home</Link> |
         <Link to="/home/info">Info</Link> |
         <Link to="/home/contact">Contact us</Link>
-        
       </nav>
       <hr />
       <Outlet />
