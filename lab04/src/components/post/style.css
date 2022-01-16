@@ -1,0 +1,17 @@
+.post-list { padding: 10px; }
+
+.post-list h2 { color: #cc3366;}
+
+.post-item {
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.post-item h3 {
+  color: #3366cc;
+  margin: 0;
+}
+
+.post-content { margin: 5px 0; }
