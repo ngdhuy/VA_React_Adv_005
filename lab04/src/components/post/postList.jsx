@@ -19,7 +19,7 @@ export const PostList = () => {
   ));
 
   return(
-    <section class="post-list">
+    <section className="post-list">
       <h2>List of Posts</h2>
       {postElements}
     </section>
