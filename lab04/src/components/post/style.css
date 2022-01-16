@@ -1,0 +1,38 @@
+.post-list, section { padding: 10px; }
+
+.post-list h2, section h2 { color: #cc3366;}
+
+.post-item {
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.post-item h3 {
+  color: #3366cc;
+  margin: 0;
+}
+
+.post-content { margin: 5px 0; }
+
+section * { display: block; }
+
+section label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+section input, section textarea {
+  width: 98%;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+}
+
+section button {
+  padding: 10px;
+  background-color: #3f9415ef;
+  color: #fff;
+  font-weight: bold;
+  border-color: #3f9415ef;
+}
