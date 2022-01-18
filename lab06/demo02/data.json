@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1, 
+    "name": "iphone 12", 
+    "price": 1000
+  },
+  {
+    "id": 2, 
+    "name": "iPad Pro M1", 
+    "price": 1500
+  },
+  {
+    "id": 3, 
+    "name": "macBook Pro 16 M1 Max", 
+    "price": 3000
+  },
+  {
+    "id": 4,
+    "name": "macPro M1 Max",
+    "price": 5000
+  },
+  {
+    "id": 5,
+    "name": "iMac M1 Max",
+    "price": 4500
+  }
+]
