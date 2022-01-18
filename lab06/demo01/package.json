@@ -1,0 +1,15 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "description": "Hello NodeJS",
+  "main": "index",
+  "scripts": {
+    "test": "node index", 
+    "start": "nodemon index"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "NDHuy",
+  "license": "ISC"
+}
