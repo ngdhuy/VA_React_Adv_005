@@ -4,6 +4,9 @@ const app = express();
 const hostname = 'localhost';
 const port = '3002';
 
+const log = require('./middleware/log.middleware');
+app.use(log);
+
 // end-point -> GET: /
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'text/html');
