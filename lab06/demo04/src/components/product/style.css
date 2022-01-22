@@ -1,0 +1,21 @@
+.product {
+  margin: 5px;  
+  padding: 5px;
+  border: 1px solid #cc3366;
+}
+
+.id {
+  color: #3366cc;
+}
+
+.name {
+  color: #cc3366;
+}
+
+.price {
+  color: #3366cc;
+}
+
+.category {
+  color: #66cc33;
+}

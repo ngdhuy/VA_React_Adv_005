@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone",
+    "price": 1000,
+    "category": "mobile"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S22",
+    "price": 1200,
+    "category": "mobile"
+  },
+  {
+    "id": 3,
+    "name": "macBook Pro M1 MAX",
+    "price": 4000,
+    "category": "laptop"
+  },
+  {
+    "id": 4,
+    "name": "1202",
+    "price": 5,
+    "category": "mobile"
+  },
+  {
+    "id": 5,
+    "name": "Dell XPS",
+    "price": 5000,
+    "category": "laptop"
+  },
+  {
+    "id": 6,
+    "name": "Apple Watch",
+    "price": 1500,
+    "category": "ware "
+  }
+]

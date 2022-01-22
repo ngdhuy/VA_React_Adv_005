@@ -1,0 +1,19 @@
+{
+  "name": "demo02",
+  "version": "1.0.0",
+  "description": "hello express",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemone index"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "NDHuy",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2"
+  }
+}
