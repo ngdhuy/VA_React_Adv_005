@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const data = require('../data.json');
+const data = require('../resources/data.json');
 
 // end-point -> GET: /product 
 router.get('/', (req, res) => {
