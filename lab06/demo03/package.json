@@ -1,0 +1,18 @@
+{
+  "name": "demo03",
+  "version": "1.0.0",
+  "description": "NodeJS, ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "NDHuy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
