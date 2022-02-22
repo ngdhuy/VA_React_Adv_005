@@ -14,18 +14,19 @@ export default class Products extends React.Component {
   }
 
   componentDidMount() {
-    let products = this.loadData();
-    console.log(products);
-    this.setState({products});
+    this.loadData();
   }
 
-  loadData = async () => {
+  loadData = () => {
     const dbRef = ref(db);
     let products = [];
-    await get(child(dbRef, 'products'))
+    get(child(dbRef, 'products'))
       .then(data => {
         if(data.exists()) {
           products = data.val()
+          this.setState({
+            products: products
+          })
         }
         else
           console.log('No data');
